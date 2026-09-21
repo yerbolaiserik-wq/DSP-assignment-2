@@ -3,7 +3,7 @@ package com.example.carsafety.factorymethod;
 import java.util.Arrays;
 import java.util.List;
 
-public class FactoryMethodDemo {
+public class FactoryMethod {
     public static void run() {
         DrivingSituation situation = new DrivingSituation("A12 Expressway", 92, "rainy");
 

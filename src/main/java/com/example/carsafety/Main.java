@@ -1,15 +1,15 @@
 package com.example.carsafety;
 
-import com.example.carsafety.abstractfactory.AbstractFactoryDemo;
-import com.example.carsafety.factorymethod.FactoryMethodDemo;
+import com.example.carsafety.abstractfactory.AbstractFactory;
+import com.example.carsafety.factorymethod.FactoryMethod;
 
 public class Main {
     public static void main(String[] args) {
         System.out.println("=== Factory Method ===");
-        FactoryMethodDemo.run();
+        FactoryMethod.run();
 
         System.out.println();
         System.out.println("=== Abstract Factory ===");
-        AbstractFactoryDemo.run();
+        AbstractFactory.run();
     }
 }

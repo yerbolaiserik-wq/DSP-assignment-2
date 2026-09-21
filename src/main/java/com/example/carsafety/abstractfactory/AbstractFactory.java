@@ -1,6 +1,6 @@
 package com.example.carsafety.abstractfactory;
 
-public class AbstractFactoryDemo {
+public class AbstractFactory {
     public static void run() {
         DrivingProfile selectedProfile = DrivingProfile.HIGHWAY;
         SafetyPackageFactory factory = SafetyPackageSelector.chooseFactory(selectedProfile);
