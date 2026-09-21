@@ -1,7 +1,7 @@
 $ErrorActionPreference = "Stop"
 
 $projectRoot = Split-Path -Parent $PSScriptRoot
-$sourceRoot = Join-Path $projectRoot "src/main/java"
+$sourceRoot = Join-Path $projectRoot "src"
 $buildRoot = Join-Path $projectRoot "build/classes"
 
 $resolvedProjectRoot = [System.IO.Path]::GetFullPath($projectRoot)
@@ -18,4 +18,4 @@ New-Item -ItemType Directory -Force $buildRoot | Out-Null
 
 $sources = Get-ChildItem -Path $sourceRoot -Filter *.java -Recurse | ForEach-Object { $_.FullName }
 javac -d $buildRoot $sources
-java -cp $buildRoot com.example.carsafety.Main
+java -cp $buildRoot Main

@@ -1,4 +1,4 @@
-package com.example.carsafety.abstractfactory;
+package abstractfactory;
 
 public class HighwaySensorSuite implements SensorSuite {
     @Override
@@ -6,3 +6,4 @@ public class HighwaySensorSuite implements SensorSuite {
         return "Using long-range radar and forward camera for high-speed traffic gaps.";
     }
 }
+

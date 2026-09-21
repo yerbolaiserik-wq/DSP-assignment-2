@@ -1,4 +1,4 @@
-package com.example.carsafety.abstractfactory;
+package abstractfactory;
 
 public class HighwayInterventionSystem implements InterventionSystem {
     @Override
@@ -6,3 +6,4 @@ public class HighwayInterventionSystem implements InterventionSystem {
         return "Applying adaptive cruise control and gentle lane-centering assistance.";
     }
 }
+

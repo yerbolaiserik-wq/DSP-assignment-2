@@ -1,4 +1,4 @@
-package com.example.carsafety.factorymethod;
+package factorymethod;
 
 public class BlindSpotCheckCreator extends SafetyCheckCreator {
     @Override
@@ -6,3 +6,4 @@ public class BlindSpotCheckCreator extends SafetyCheckCreator {
         return new BlindSpotAlert();
     }
 }
+

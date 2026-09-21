@@ -1,4 +1,4 @@
-package com.example.carsafety.factorymethod;
+package factorymethod;
 
 public class LaneCheckCreator extends SafetyCheckCreator {
     @Override
@@ -6,3 +6,4 @@ public class LaneCheckCreator extends SafetyCheckCreator {
         return new LaneAlert();
     }
 }
+

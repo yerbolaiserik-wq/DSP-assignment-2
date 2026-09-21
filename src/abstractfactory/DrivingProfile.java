@@ -1,6 +1,7 @@
-package com.example.carsafety.abstractfactory;
+package abstractfactory;
 
 public enum DrivingProfile {
     HIGHWAY,
     CITY
 }
+

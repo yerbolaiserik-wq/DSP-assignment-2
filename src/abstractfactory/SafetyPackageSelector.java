@@ -1,4 +1,4 @@
-package com.example.carsafety.abstractfactory;
+package abstractfactory;
 
 public class SafetyPackageSelector {
     public static SafetyPackageFactory chooseFactory(DrivingProfile profile) {
@@ -12,3 +12,4 @@ public class SafetyPackageSelector {
         }
     }
 }
+

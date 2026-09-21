@@ -1,4 +1,4 @@
-package com.example.carsafety.abstractfactory;
+package abstractfactory;
 
 public class AbstractFactory {
     public static void run() {
@@ -9,3 +9,4 @@ public class AbstractFactory {
         System.out.println(controller.activate());
     }
 }
+

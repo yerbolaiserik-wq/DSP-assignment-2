@@ -1,4 +1,4 @@
-package com.example.carsafety.abstractfactory;
+package abstractfactory;
 
 public class CityWarningSystem implements DriverWarningSystem {
     @Override
@@ -6,3 +6,4 @@ public class CityWarningSystem implements DriverWarningSystem {
         return "Sending dashboard and audio alerts for cyclists, pedestrians, and tight turns.";
     }
 }
+

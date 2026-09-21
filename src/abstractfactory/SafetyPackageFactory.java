@@ -1,4 +1,4 @@
-package com.example.carsafety.abstractfactory;
+package abstractfactory;
 
 public interface SafetyPackageFactory {
     SensorSuite createSensorSuite();
@@ -7,3 +7,4 @@ public interface SafetyPackageFactory {
 
     InterventionSystem createInterventionSystem();
 }
+

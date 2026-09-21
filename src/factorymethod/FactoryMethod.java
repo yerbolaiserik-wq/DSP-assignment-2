@@ -1,4 +1,4 @@
-package com.example.carsafety.factorymethod;
+package factorymethod;
 
 import java.util.Arrays;
 import java.util.List;
@@ -18,3 +18,4 @@ public class FactoryMethod {
         }
     }
 }
+

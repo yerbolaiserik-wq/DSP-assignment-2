@@ -1,4 +1,4 @@
-package com.example.carsafety.factorymethod;
+package factorymethod;
 
 public class LaneAlert implements SafetyAlert {
     @Override
@@ -11,3 +11,4 @@ public class LaneAlert implements SafetyAlert {
         return "watch lane markings in " + situation.getWeather() + " weather";
     }
 }
+

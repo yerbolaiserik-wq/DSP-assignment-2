@@ -1,4 +1,4 @@
-package com.example.carsafety.abstractfactory;
+package abstractfactory;
 
 public class CitySensorSuite implements SensorSuite {
     @Override
@@ -6,3 +6,4 @@ public class CitySensorSuite implements SensorSuite {
         return "Using short-range radar, curb cameras, and pedestrian detection.";
     }
 }
+

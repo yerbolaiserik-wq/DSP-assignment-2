@@ -19,7 +19,18 @@ powershell -ExecutionPolicy Bypass -File .\scripts\run.ps1
 Main class:
 
 ```text
-com.example.carsafety.Main
+Main
+```
+
+Repository structure:
+
+```text
+assignment2-design-patterns/
+├── src/
+│   ├── factorymethod/
+│   └── abstractfactory/
+├── README.md
+└── pom.xml
 ```
 
 ## Part A Factory Method
@@ -27,7 +38,7 @@ com.example.carsafety.Main
 Package:
 
 ```text
-src/main/java/com/example/carsafety/factorymethod
+src/factorymethod
 ```
 
 Product interface:
@@ -69,7 +80,7 @@ overrides that method and returns a different `SafetyAlert`.
 Package:
 
 ```text
-src/main/java/com/example/carsafety/abstractfactory
+src/abstractfactory
 ```
 
 Abstract product interfaces:

@@ -1,4 +1,4 @@
-package com.example.carsafety.factorymethod;
+package factorymethod;
 
 public class CollisionAlert implements SafetyAlert {
     @Override
@@ -14,3 +14,4 @@ public class CollisionAlert implements SafetyAlert {
         return "keep watching the car ahead";
     }
 }
+

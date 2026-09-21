@@ -1,7 +1,8 @@
-package com.example.carsafety.factorymethod;
+package factorymethod;
 
 public interface SafetyAlert {
     String name();
 
     String messageFor(DrivingSituation situation);
 }
+

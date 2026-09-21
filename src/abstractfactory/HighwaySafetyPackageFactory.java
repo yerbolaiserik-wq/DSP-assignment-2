@@ -1,4 +1,4 @@
-package com.example.carsafety.abstractfactory;
+package abstractfactory;
 
 public class HighwaySafetyPackageFactory implements SafetyPackageFactory {
     @Override
@@ -16,3 +16,4 @@ public class HighwaySafetyPackageFactory implements SafetyPackageFactory {
         return new HighwayInterventionSystem();
     }
 }
+

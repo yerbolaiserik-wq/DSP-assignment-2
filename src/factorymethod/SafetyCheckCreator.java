@@ -1,4 +1,4 @@
-package com.example.carsafety.factorymethod;
+package factorymethod;
 
 public abstract class SafetyCheckCreator {
     protected abstract SafetyAlert createAlert();
@@ -8,3 +8,4 @@ public abstract class SafetyCheckCreator {
         return alert.name() + ": " + alert.messageFor(situation);
     }
 }
+

@@ -1,4 +1,4 @@
-package com.example.carsafety.factorymethod;
+package factorymethod;
 
 public class DrivingSituation {
     private final String roadName;
@@ -23,3 +23,4 @@ public class DrivingSituation {
         return weather;
     }
 }
+

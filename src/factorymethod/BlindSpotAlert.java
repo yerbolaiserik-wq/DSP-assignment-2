@@ -1,4 +1,4 @@
-package com.example.carsafety.factorymethod;
+package factorymethod;
 
 public class BlindSpotAlert implements SafetyAlert {
     @Override
@@ -11,3 +11,4 @@ public class BlindSpotAlert implements SafetyAlert {
         return "check side radar before changing lanes";
     }
 }
+

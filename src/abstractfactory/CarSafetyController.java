@@ -1,4 +1,4 @@
-package com.example.carsafety.abstractfactory;
+package abstractfactory;
 
 public class CarSafetyController {
     private final SensorSuite sensorSuite;
@@ -19,3 +19,4 @@ public class CarSafetyController {
                 + interventionSystem.assistVehicle();
     }
 }
+

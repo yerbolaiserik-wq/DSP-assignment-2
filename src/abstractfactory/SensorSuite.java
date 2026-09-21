@@ -1,5 +1,6 @@
-package com.example.carsafety.abstractfactory;
+package abstractfactory;
 
 public interface SensorSuite {
     String scanEnvironment();
 }
+
